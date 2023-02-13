@@ -29,7 +29,7 @@ export function Button({
         'bg-indigo-600 text-white hover:bg-violet-500 active:bg-indigo-800 disabled:bg-slate-400'
 
     const primaryClasses =
-        'bg-fuchsia-500 text-white hover:bg-fuchsia-700 active:bg-fuchsia-800 disabled:bg-slate-400'
+        'bg-fuchsia-600 text-white hover:bg-fuchsia-700 active:bg-fuchsia-800 disabled:bg-slate-400'
 
     const loadingSvg = (
         <Image
