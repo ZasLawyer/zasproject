@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { BackgroundBottom, BackgroundTop } from '@/components/atoms/Background'
-import { NavBar } from '@/components/molecules/NavBar'
+import { Header } from '@/components/organisms/Header'
 
 interface Props {
     children: JSX.Element | JSX.Element[]
@@ -34,7 +34,7 @@ export function MainLayout({ children, title }: Props) {
             <div className="isolate">
                 <BackgroundTop />
                 <header>
-                    <NavBar />
+                    <Header />
                 </header>
                 <main>{children}</main>
                 <BackgroundBottom />
