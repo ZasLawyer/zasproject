@@ -9,7 +9,7 @@ import { LoggedInButtons } from '@/components/molecules/LoggedInButtons'
 import { BrandLogo } from '@/components/atoms/BrandLogo/BrandLogo'
 import Link from 'next/link'
 
-const navigation: INavigationMenu[] = [
+export const navigation: INavigationMenu[] = [
     { name: 'Inicio', href: '/', current: true },
     { name: 'Impugnaciones', href: '#', current: false },
 ]
@@ -25,12 +25,12 @@ function classNames(...classes: string[]) {
 }
 
 export function NavBar() {
-    const [isLoggedIn, setIsLoggedIn] = useState<boolean>(true)
+    const [isLoggedIn] = useState<boolean>(true)
 
     return (
         <Disclosure
             as="nav"
-            className="backdrop-blur-lg bg-white/20 shadow-2xl shadow-gray-300"
+            className="backdrop-blur-lg bg-white/20 shadow-2xl shadow-gray-300 tracking-wide w-full fixed"
         >
             {({ open }) => (
                 <>
