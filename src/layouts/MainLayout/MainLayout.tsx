@@ -30,6 +30,7 @@ export function MainLayout({ children, title }: Props) {
                     content="Sitio web de impugnaciones de multas de trafico por foto radares"
                 />
                 <meta property="og:url" content={origin || undefined} />
+                <meta property="og:image" content="/og-image.png" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
