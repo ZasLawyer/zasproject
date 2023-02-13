@@ -31,7 +31,7 @@ interface Props {
 
 export function HowWorks({ className }: Props) {
     return (
-        <div
+        <section
             className={`max-w-7xl mx-auto px-2 md:px-6 lg:px-8 space-y-5 ${className}`}
         >
             <Title
@@ -50,6 +50,6 @@ export function HowWorks({ className }: Props) {
                     />
                 ))}
             </div>
-        </div>
+        </section>
     )
 }
