@@ -18,7 +18,7 @@ export function Hero() {
             </div>
             <div className="hidden sm:block">
                 <Image
-                    src="./lawer.svg"
+                    src="./lawyer.svg"
                     alt="Abogado"
                     priority
                     width={400}
